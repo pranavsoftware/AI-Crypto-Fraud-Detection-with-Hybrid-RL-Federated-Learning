@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# Large data files
+data/raw/elliptic/
+data/raw/synthetic_dataset.csv
+data/processed/*.csv
+data/processed/*.pkl
+
+# Large model files
+models/*.pth
+models/*.pkl
