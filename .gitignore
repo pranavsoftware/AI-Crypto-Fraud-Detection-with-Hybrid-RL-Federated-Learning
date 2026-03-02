@@ -5,12 +5,9 @@ __pycache__/
 .venv/
 *.egg-info/
 
-# Large data files
-data/raw/elliptic/
-data/raw/synthetic_dataset.csv
-data/processed/*.csv
-data/processed/*.pkl
+# Large data files (exceed GitHub 100MB limit)
+data/raw/elliptic/elliptic_txs_features.csv
+data/processed/train_data.csv
+data/processed/graph_data.pkl
 
-# Large model files
-models/*.pth
-models/*.pkl
+
